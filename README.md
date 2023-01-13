@@ -61,7 +61,7 @@ In this repository, I will write notes about HTML tags and how they work.
 ## Roadmap
 
 
-  - [ ] HTML Basics 
+  - [x] HTML Basics 
 
 
 
