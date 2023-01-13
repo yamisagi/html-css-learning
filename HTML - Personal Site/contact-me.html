@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <h2>Mail Me</h2>
+      <!-- Form oluşturmak için <form> tagini kullanıyoruz -->
+      <!-- action: formu göndermek istediğimizde nasıl işleneceğini belirtiyoruz -->
+      <!-- method: formu gönderirken kullanacağımız method -->
+      <!-- label: kullanıcıya bir label gösterir -->
+      <!-- input: kullanıcıdan bilgi almak için kullanılır -->
+      <!-- input type="text": kullanıcıdan yazı tipinde bir bilgi almak için kullanılır -->
+      <!-- input type="email": kullanıcıdan email tipinde bir bilgi almak için kullanılır -->
+      <!-- input type="password": kullanıcıdan şifre tipinde bir bilgi almak için kullanılır -->
+      <!-- input type="radio": kullanıcıdan tek seçim yapmasını sağlar -->
+      <!-- input type="checkbox": kullanıcıdan birden fazla seçim yapmasını sağlar -->
+      <!-- input type="file": kullanıcıdan dosya yüklemesini sağlar -->
+      <!-- input type="date": kullanıcıdan tarih girdisi almak için kullanılır -->
+      <!-- input type="submit": formu göndermek için kullanılır ve inputu bir butona dönüştürür -->
+      <!-- Bir çok tipi var-->
+      <!-- textarea: kullanıcıdan daha uzun bir text almak için kullanılır -->
+      <!-- rows: textarea için satır sayısı -->
+      <!-- cols: textarea için sütun sayısı -->
+
+      <form action="mailto:" method="post" enctype="text/plain">
+        <label for="name">Your name: </label>
+        <input type="text" name="My name i " value="" />
+        <br />
+        <label for="email">Your email: </label>
+        <input type="email" name="" value="" />
+        <br />
+        <label for="message">Your message: </label>
+        <textarea name="" rows="8" cols="50"></textarea>
+        <br />
+        <input type="submit" name="" value="Send" />
+      </form>
+    </center>
+  </body>
+</html>
