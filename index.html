@@ -8,7 +8,11 @@
     <!-- Sayfanın başlığı -->
   </head>
 
-  <body>
+  <!-- Inline CSS ile aşağıda yaptığımız gibi, belirli tagleri etkileyebiliriz. -->
+  <!-- Fakat bu durumu tüm sayfalarda ve her tagde yapmak oldukça zahmetlidir. -->
+  <!-- Bu yüzden Inline CSS yerine, Internal CSS dosyaları oluşturup, orada tüm tagleri etkileyebiliriz. -->
+
+  <body style="background-color: #ffc3a1">
     <center>
       <!-- alt attribute -> SEO optimizasyonu için anahtar kelimeler kullanılır -->
       <!-- width ve height attribute -> resmin boyutunu belirtir -->
@@ -44,7 +48,14 @@
       <br />
       <a href="HTML - Personal Site/contact-me.html">Mail me </a>
       <br />
-      <hr style="color: rgb(189, 32, 32); height: 2px; width: 75%" />
+      <hr
+        style="
+          border: #a75d5d;
+          background-color: #a75d5d;
+          height: 2px;
+          width: 75%;
+        "
+      />
       <strong><h3>My Projects 👇🏻</h3></strong>
       <br />
     </center>
