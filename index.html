@@ -4,15 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bu satır sayfanın tarayıcıda ilk açıldığında nasıl görüntüleneceğini belirtir -->
-    <title>Yamisagi</title>
     <!-- Sayfanın başlığı -->
+    <title>Yamisagi</title>
+
+    <!-- Internal CSS -->
+    <!-- Bu şekilde yapılınca dikkat edilmesi gereken şey  -->
+    <!-- Bu CSS kodları, sadece bu sayfada geçerli olacaktır. -->
+    <!-- Bu yüzden, tüm sayfalarda kullanmak istediğimiz
+       CSS kodlarını Internal CSS olarak yazmamamız gerekir.
+       Hiç CSS yazmasak bile tarayıcıda default olarak tanımlı olan CSS kodları çalışır.
+       Bu yüzden sayfalar öncelik olarak Default CSS kodlarını, Inline CSS kodlarını, sonra Internal CSS kodlarını, 
+        kullanır. -->
+    <style>
+      body {
+        background-color: #ffc3a1;
+      }
+
+      hr {
+        border: #a75d5d;
+        background-color: #a75d5d;
+        height: 2px;
+        border-style: none;
+        width: 75%;
+      }
+    </style>
   </head>
 
   <!-- Inline CSS ile aşağıda yaptığımız gibi, belirli tagleri etkileyebiliriz. -->
   <!-- Fakat bu durumu tüm sayfalarda ve her tagde yapmak oldukça zahmetlidir. -->
   <!-- Bu yüzden Inline CSS yerine, Internal CSS dosyaları oluşturup, orada tüm tagleri etkileyebiliriz. -->
 
-  <body style="background-color: #ffc3a1">
+  <body>
+    <!-- <body style="background-color: #ffc3a1"> -->
     <center>
       <!-- alt attribute -> SEO optimizasyonu için anahtar kelimeler kullanılır -->
       <!-- width ve height attribute -> resmin boyutunu belirtir -->
@@ -48,14 +71,13 @@
       <br />
       <a href="HTML - Personal Site/contact-me.html">Mail me </a>
       <br />
-      <hr
-        style="
+      <!-- <hr   style="
           border: #a75d5d;
           background-color: #a75d5d;
           height: 2px;
           width: 75%;
-        "
-      />
+        " /> -->
+      <hr />
       <strong><h3>My Projects 👇🏻</h3></strong>
       <br />
     </center>
