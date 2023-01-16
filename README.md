@@ -66,8 +66,8 @@ In this repository, I will write notes about HTML tags and how they work.
   - [x] HTML Tables
   - [x] HTML Forms
   - [x] Inline CSS
-  - [ ] Internal CSS
-
+  - [x] Internal CSS
+  - [ ] External CSS
 
 
 
