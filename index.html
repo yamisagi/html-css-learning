@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- link tagı ile içinde stylesheet olduğunu belirttiğimiz
+    dosyaya gitmesini belirtiyoruz.
+    href attribute -> dosyanın kaynağını belirtir
+    rel attribute -> dosyanın türünü belirtir
+    Bu şekilde yapılınca dikkat edilmesi  gereken şey
+    Bu CSS kodları, yine sadece bu sayfada geçerli olacaktır.
+  -->
+    <link rel="stylesheet" href="styles/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bu satır sayfanın tarayıcıda ilk açıldığında nasıl görüntüleneceğini belirtir -->
@@ -15,20 +23,20 @@
        Hiç CSS yazmasak bile tarayıcıda default olarak tanımlı olan CSS kodları çalışır.
        Bu yüzden sayfalar öncelik olarak Default CSS kodlarını, Inline CSS kodlarını, sonra Internal CSS kodlarını, 
         kullanır. -->
-    <style>
+    <!-- <style>
       body {
         background-color: #ffc3a1;
       }
 
       hr {
         border: #a75d5d;
-        /* border-radius: 50%; */
-        /* height: 0; */
+        border-radius: 50%;
+        height: 0;
         border-style: dotted none none;
         border-width: 5px;
         width: 50%;
       }
-    </style>
+    </style> -->
   </head>
 
   <!-- Inline CSS ile aşağıda yaptığımız gibi, belirli tagleri etkileyebiliriz. -->
@@ -49,11 +57,10 @@
         width="100"
         height="100"
       />
-      <h1>
-        <a>Yamisagi's Very First Personal Site</a>
-      </h1>
-      <br />
-      <h2>Eren Candan</h2>
+      <h1>Eren Candan</h1>
+      <strong
+        ><em><h2>@yamisagi</h2></em></strong
+      >
       <em><p>JR. Flutter Developer</p></em>
       <strong> <p>Will be Web Developer soon (I hope 🥲)</p> </strong>
       <!-- <em> tag ile <i> tag aynı görsel etkiyi yaratıyormuş gibi görünse de <em> vurgu yapmak için kullanılır -->
@@ -70,7 +77,7 @@
       <a href="https://github.com/yamisagi">GitHub</a>
       <br />
       <br />
-      <a href="HTML - Personal Site/contact-me.html">Mail me </a>
+      <a href="contact-me.html">Mail me </a>
       <br />
       <!-- <hr   style="
           border: #a75d5d;
@@ -99,7 +106,7 @@
         <p>
           <a href="https://github.com/yamisagi">More on my GitHub Profile</a>
         </p>
-        <p><a href="HTML - Personal Site/table.html">My Certificates</a></p>
+        <p><a href="table.html">My Certificates</a></p>
       </h3>
     </center>
   </body>
