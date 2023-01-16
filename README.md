@@ -68,6 +68,8 @@ In this repository, I will write notes about HTML tags and how they work.
   - [x] Inline CSS
   - [x] Internal CSS
   - [x] External CSS
+  - [x] CSS Selectors
+  - [x] CSS Pseudo Classes
 
 
 
