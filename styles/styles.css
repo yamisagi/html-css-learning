@@ -1,83 +1,96 @@
 body {
-    background-color: #FFF8EA;
-  }
+  background-color: #fff8ea;
+}
 
-  hr {
-    border: #815B5B;
-    border-style: dotted none none;
-    border-width: 5px;
-    width: 50%;
+hr {
+  border: #815b5b;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 50%;
+}
 
-    
-  }
+h1 {
+  color: #594545;
+  font-family: "JetBrains Mono", cursive;
+  /* font-size: 40px; */
+  text-align: center;
+}
 
-  h1 {
-    color: #594545;
-    font-family: 'JetBrains Mono', cursive;
-    /* font-size: 40px; */
-    text-align: center;
-  }
+h2 {
+  color: #815b5b;
+  font-family: "JetBrains Mono", cursive;
+  font-size: 30px;
+  text-align: center;
+}
 
+h3 {
+  color: #815b5b;
+  font-family: "JetBrains Mono", cursive;
+  font-size: 20px;
+  text-align: center;
+}
 
-    h2 {
-        color: #815B5B;
-        font-family: 'JetBrains Mono', cursive;
-        font-size: 30px;
-        text-align: center;
-    }
+h4 {
+  color: #815b5b;
+  font-family: "JetBrains Mono", cursive;
+  font-size: 15px;
+  text-align: center;
+}
 
-    h3 {
-        color: #815B5B;
-        font-family: 'JetBrains Mono', cursive;
-        font-size: 20px;
-        text-align: center;
-    }
+h5 {
+  color: #815b5b;
+  font-family: "JetBrains Mono", cursive;
+  font-size: 10px;
+  text-align: center;
+}
 
-    h4 {
-        color: #815B5B;
-        font-family: 'JetBrains Mono', cursive;
-        font-size: 15px;
-        text-align: center;
-    
-    }
-    
-    h5 {
-        color: #815B5B;
-        font-family: 'JetBrains Mono', cursive;
-        font-size: 10px;
-        text-align: center;
-    
-    }
-    
-    h6 {
-        color: #815B5B;
-        font-family: 'JetBrains Mono', cursive;
-        font-size: 5px;
-        text-align: center;
-    
-    }
-    a {
-        color: #9E7676;
-        font-family: 'JetBrains Mono', cursive;
-        font-size: 15px;
-        text-align: center;
-        text-decoration: none;
-    }
-    p {
-        color: #815B5B;
-        font-family: 'JetBrains Mono', cursive;
-        font-size: 15px;
-        text-align: center;
-        list-style: none;
-    }
+h6 {
+  color: #815b5b;
+  font-family: "JetBrains Mono", cursive;
+  font-size: 5px;
+  text-align: center;
+}
 
-    /* CLASS SELECTORS */
-    /* - :..  Önünde iki nokta bulunan selectorler pseudo selectorler olarak geçer ve özeldirler
+a {
+  color: #9e7676;
+  font-family: "JetBrains Mono", cursive;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+p {
+  color: #815b5b;
+  font-family: "JetBrains Mono", cursive;
+  font-size: 15px;
+  text-align: center;
+  list-style: none;
+}
+td {
+  color: #594545;
+  font-family: "JetBrains Mono", cursive;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  list-style: none;
+}
+
+/* CLASS SELECTORS */
+/* - :..  Önünde iki nokta bulunan selectorler pseudo selectorler olarak geçer ve özeldirler
        - Örneğin fare imleci üzerine gelindiğinde veya tıklanıldığında gibi durumlarda kullanılırlar.
     */
-    .avatar-img:hover{
-        border-radius: 50%;
-        border: 5px solid #815B5B;
-        box-shadow: 0 0 10px #815B5B;
+.avatar-img:hover {
+  border-radius: 50%;
+  border: 5px solid #815b5b;
+  box-shadow: 0 0 10px #815b5b;
+}
 
-    }
+.table-p {  
+  border: 1px solid #815b5b;
+  border-collapse: collapse;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #815b5b;
+  margin: 0 auto;
+  padding: 10px;
+  width: 40%;
+}
